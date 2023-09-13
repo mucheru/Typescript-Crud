@@ -14,16 +14,25 @@ If you are not familiar with the different technologies used in this project, pl
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-## Learn More
+### clone the project
+### cd to the project
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### check if docker is running
+docker ps -a
+#### update the schema
+npx prisma migrate dev --name init
+#### Visualize the prisma studio
+npx prisma migrate dev --name init
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+#### Install the node modules
+npm install
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Run the application
 
-## How do I deploy this?
+npm run dev
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
-# Typescript-Crud
+###How it looks
+![image](https://github.com/mucheru/Typescript-Crud/assets/13763343/f4ae9089-ade4-4154-a4cc-b3b4e51b9d67)
+
+thats it gets skills in typescript.Be a pro in javascript!!
+
